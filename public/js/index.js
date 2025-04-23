@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // SWEET ALART THAT WELCOMES THE USER 
   document.addEventListener("DOMContentLoaded", function () {
     Swal.fire({
-      title: "Gift Card Wave",
+      title: "Gift Castle",
       html: "Before selling your gift cards, make sure to check the current rates to get the best value in return. Use our calculator to find out how much your card is worth.",
       icon: "info",
       showCancelButton: false,  // Remove the cancel button
@@ -73,11 +73,11 @@ document.addEventListener("DOMContentLoaded", () => {
       "With Astro_Trade, capital won't be your problem.",
       "Fast, secure, and hassle-free transactions.",
       "Your trusted platform for digital asset exchange.",
-      "Sell smart, earn fast with Gift Card Wave.",
+      "Sell smart, earn fast with Gift Castle.",
       "No waiting, no stress—just instant payments.",
       "We offer the best rates for gift cards & crypto.",
       "Don't let your assets sit idle—cash out now!",
-      "GGift Castle: The future of seamless trading.",
+      "Gift Castle: The future of seamless trading.",
       "Safe, reliable, and rewarding transactions.",
       "Your money, your way—trade with confidence.",
       "Join Gift Castle and start earning today!",
