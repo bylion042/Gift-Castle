@@ -32,30 +32,30 @@ document.addEventListener("DOMContentLoaded", () => {
   
   
   // SWEET ALART THAT WELCOMES THE USER 
-  // document.addEventListener("DOMContentLoaded", function () {
-  //   Swal.fire({
-  //     title: "Gift Card Wave",
-  //     html: "Before selling your gift cards, make sure to check the current rates to get the best value in return. Use our calculator to find out how much your card is worth.",
-  //     icon: "info",
-  //     showCancelButton: false,  // Remove the cancel button
-  //     showConfirmButton: true,
-  //     confirmButtonText: "Check Rate",
-  //     confirmButtonColor: "#3085d6",
-  //     width: "400px",
-  //     didOpen: () => {
-  //       document.querySelector(".swal2-title").style.fontSize = "16px";
-  //       document.querySelector(".swal2-title").style.lineHeight = "1.4";
-  //       document.querySelector(".swal2-html-container").style.fontSize = "14px";
-  //       document.querySelector(".swal2-html-container").style.lineHeight = "1.5";
-  //       document.querySelector(".swal2-confirm").style.fontSize = "13px";
-  //       document.querySelector(".swal2-confirm").style.padding = "8px 16px";
-  //     }
-  //   }).then((result) => {
-  //     if (result.isConfirmed) {
-  //       window.location.href = "/calculator";
-  //     }
-  //   });
-  // });
+  document.addEventListener("DOMContentLoaded", function () {
+    Swal.fire({
+      title: "Gift Card Wave",
+      html: "Before selling your gift cards, make sure to check the current rates to get the best value in return. Use our calculator to find out how much your card is worth.",
+      icon: "info",
+      showCancelButton: false,  // Remove the cancel button
+      showConfirmButton: true,
+      confirmButtonText: "Check Rate",
+      confirmButtonColor: "#3085d6",
+      width: "400px",
+      didOpen: () => {
+        document.querySelector(".swal2-title").style.fontSize = "16px";
+        document.querySelector(".swal2-title").style.lineHeight = "1.4";
+        document.querySelector(".swal2-html-container").style.fontSize = "14px";
+        document.querySelector(".swal2-html-container").style.lineHeight = "1.5";
+        document.querySelector(".swal2-confirm").style.fontSize = "13px";
+        document.querySelector(".swal2-confirm").style.padding = "8px 16px";
+      }
+    }).then((result) => {
+      if (result.isConfirmed) {
+        window.location.href = "/calculator";
+      }
+    });
+  });
   
 
   
@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
   //  POPS UP ONCE YOU ARE IN THE WEB 
   window.onload = function () {
     const messages = [
-      "Welcome to Gift Card Wave!",
+      "Welcome to Gift Castle!",
       "Sell your gift cards and crypto with ease.",
       "Get paid instantly for your digital assets.",
       "Turn unused gift cards into real cash today!",
@@ -77,10 +77,10 @@ document.addEventListener("DOMContentLoaded", () => {
       "No waiting, no stress—just instant payments.",
       "We offer the best rates for gift cards & crypto.",
       "Don't let your assets sit idle—cash out now!",
-      "Gift Card Wave: The future of seamless trading.",
+      "GGift Castle: The future of seamless trading.",
       "Safe, reliable, and rewarding transactions.",
       "Your money, your way—trade with confidence.",
-      "Join Gift Card Wave and start earning today!",
+      "Join Gift Castle and start earning today!",
     ];
   
     let messageIndex = 0;

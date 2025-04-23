@@ -35,8 +35,8 @@ body {
 }
 
 
-.app-img img{
-    width: 30%;
+.logo img{
+    width: 50%;
 }
 
 
@@ -64,7 +64,7 @@ body {
 }
 
 .container h1 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
     text-align: center;
     color: var(--secondary-color-dark);
