@@ -29,14 +29,26 @@
     font-size: 18px;
   }
 
+
   form {
     max-width: 400px;
     margin: auto;
     background-color: var(--primary-color-light);
-    padding: 2rem 1rem;
+    padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
   }
+
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.logo img{
+  width: 50%;
+}
+
 
   label, select, input {
     display: block;
@@ -51,7 +63,7 @@
   input, select {
     padding: 0.6rem;
     border: none;
-    border-radius: 5px;
+    border-radius: 7px;
     background-color: var(--primary-color-extra-light);
     color: var(--white);
     border-left: 5px solid var(--secondary-color);
@@ -107,7 +119,7 @@
       }
 
       form {
-        padding: 2rem 0.50rem;
+        padding: 2rem 1rem;
       }
 
       label, select, input {
